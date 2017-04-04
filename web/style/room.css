@@ -1,0 +1,79 @@
+
+#roomView{
+    width: 850px;
+    margin:0 auto;
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#roomView header{
+    background-color:rgba(67, 67, 50, 0.3);
+    border-radius: 5px;
+}
+#roomView header #addBtn{
+    display: inline-block;
+    margin-left: 110px;
+
+
+}
+#roomView header .btn-group .btn{
+}
+#search {
+    font-size: 13px;
+}
+#roomView header form{
+    width: 230px;
+    float: right;
+}
+#roomView header form span:hover{
+    cursor: pointer;
+}
+
+#roomView section{
+    min-height: 150px;
+}
+#roomView section .room{
+    width: 180px;
+    margin-left: 25px;
+    margin-top:10px;
+    display: inline-block;
+    float: left;
+
+}
+#roomView section .room table td{
+    font-size: 15px;
+}
+#roomView section .room:hover{
+    cursor: pointer;
+}
+#roomView section .room .full{
+    background-color: orange;
+}
+#roomView section .room .empty{
+    background-color: greenyellow;
+}
+
+#roomView footer{
+    clear: both;
+    display: flex;
+    justify-content:center;
+}
+
+#roomInfo .modal-header td{
+    text-align: center;
+}
+#roomInfo .modal-body td:nth-of-type(odd),
+#roomInfo .modal-header td:nth-of-type(odd){
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#roomInfo .modal-body td{
+    text-align: center;
+}
+
+#page .btn{
+    height: 40px;
+}

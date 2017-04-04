@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!--<security-constraint>-->
+        <!--　　<web-resource-collection>-->
+            <!--　　<web-resource-name>Jsp</web-resource-name>-->
+            <!--　　<url-pattern>/Jsp/*</url-pattern>-->
+        <!--　　</web-resource-collection>-->
+    <!--</security-constraint>-->
+
+    <servlet>
+        <servlet-name>getData</servlet-name>
+        <servlet-class>Servlets.GetData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getData</servlet-name>
+        <url-pattern>/Servlets/GetData</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getRoomInfo</servlet-name>
+        <servlet-class>Servlets.GetRoomInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getRoomInfo</servlet-name>
+        <url-pattern>/Servlets/GetRoomInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SettleDown</servlet-name>
+        <servlet-class>Servlets.SettleDown</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SettleDown</servlet-name>
+        <url-pattern>/Servlets/SettleDown</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddRooms</servlet-name>
+        <servlet-class>Servlets.AddRooms</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddRooms</servlet-name>
+        <url-pattern>/Servlets/AddRooms</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>Servlets.Search</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Servlets/Search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Nationality</servlet-name>
+        <servlet-class>Servlets.Nationality</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Nationality</servlet-name>
+        <url-pattern>/Servlets/Nationality</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Apply</servlet-name>
+        <servlet-class>Servlets.Apply</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Apply</servlet-name>
+        <url-pattern>/Servlets/Apply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Rent</servlet-name>
+        <servlet-class>Servlets.Rent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Rent</servlet-name>
+        <url-pattern>/Servlets/Rent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Application</servlet-name>
+        <servlet-class>Servlets.Application</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Application</servlet-name>
+        <url-pattern>/Servlets/Application</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>Servlets.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/Servlets/UploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Servlets.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Servlets/Login</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

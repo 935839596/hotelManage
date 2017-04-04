@@ -1,0 +1,29 @@
+#moneyStatics{
+    width: 800px;
+    margin:0 auto;
+    background-color: white;
+    clear: both;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.accordion-group{
+    margin: 10px 50px;
+}
+.accordion-group .accordion-heading button{
+    width: 250px;
+}
+.form_datetime{
+    margin-top: 10px;
+    margin-right:10px;
+    width: 174px;
+    display: inline-block;
+}
+
+#myModal .modal-body{
+    text-align: center;
+    font-size: 20px;
+}
+

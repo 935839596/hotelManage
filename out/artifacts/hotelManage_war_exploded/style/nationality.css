@@ -1,0 +1,26 @@
+#nationalityView{
+    width: 800px;
+    margin:0 auto;
+    background-color: white;
+    clear: both;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+}
+#nationalityView header{
+    padding-bottom: 20px;
+}
+#nationalityView table thead th,
+#nationalityView table{
+    text-align: center;
+}
+#table header{
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+#nationalityView footer {
+    display: flex;
+    justify-content:center;
+}

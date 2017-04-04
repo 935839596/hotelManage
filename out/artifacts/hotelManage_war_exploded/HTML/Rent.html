@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent</title>
+    <link rel="stylesheet" href="../style/main.css" >
+    <link rel="stylesheet" href="../style/bootstrap.min.css" >
+    <link rel="stylesheet" href="../style/rent.css">
+    <link rel="stylesheet" href="../style/bootstrap-datetimepicker.min.css">
+</head>
+<body>
+<div id="wrap">
+    <div id="container">
+        <div class="logo">
+            <h1><a href="home.html">Hotel</a></h1>
+            <nav class="navbar navbar-reverse " role="navigation">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li ><a href="Room.html">Room</a></li>
+                            <li ><a href="Nationality.html">Natitionality</a></li>
+                            <li class="active"><a href = "Rent.html">Rent</a></li>
+                            <li><a href="Application.html">Application<span class="badge">3</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="moneyStatics">
+            <!--<input id="month" class="month form_datetime form-control" type="text"   size="16">-->
+            <!--<input id="year" class="month form_datetime form-control" type="text"  ="16">-->
+
+
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <button class="btn btn-primary accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        calculate monthly income
+                    </button>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+                    <div class="accordion-inner">
+                        <input id="month" class="month form_datetime form-control" type="text" placeholder="choose a month"   size="16">
+                        <button class="btn btn-primary"> check </button>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <button class="btn btn-primary accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseYear">
+                            calculate monthly income
+                        </button>
+                    </div>
+                    <div id="collapseYear" class="accordion-body collapse" style="height: 0px; ">
+                        <div class="accordion-inner">
+                            <input id="year" class="month form_datetime form-control" type="text" placeholder="choose a year"  size="16">
+                            <button class="btn btn-primary"> check </button>
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">在这里添加一些文本</div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+</div>
+
+
+
+
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../JS/bootstrap.min.js" ></script>
+<script src="../JS/bootstrap-datetimepicker.min.js"></script>
+<script src="../JS/main.js"></script>
+<script src="../JS/rent.js"></script>
+</body>
+</html>

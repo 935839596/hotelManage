@@ -1,0 +1,28 @@
+#application{
+    width: 800px;
+    margin:0 auto;
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#application .panel-group{
+    margin: 10px;
+}
+#collapseOne .panel-body td{
+    text-align: center;;
+}
+#collapseOne .panel-body td:nth-of-type(odd){
+    font-weight: bold;
+}
+#accordion td{
+    text-align: center;
+}
+#accordion td:nth-of-type(odd){
+    font-weight: bold;
+
+}
+#accordion td[name='CN']{
+    font-size:15px;
+}

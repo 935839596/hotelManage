@@ -1,0 +1,73 @@
+*{margin:0;  padding:0;  }
+
+h1{
+    margin:0 !important;
+    padding: 0 !important;
+}
+#wrap{
+    background: url("../img/background.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    position: relative;
+}
+
+#container{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+#container .logo{
+    padding-top:50px;
+    width:800px;
+    margin:0 auto;
+}
+#container .logo h1{
+    float: left;
+    font-family:Algerian;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: #fff;
+
+}
+#container .logo h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+#container .logo nav{
+    float: right;
+    font-size: 20px;
+}
+#container .logo nav .active a{
+    color:white;
+}
+#groupbtn{
+    position:fixed ;
+    left:50%;
+    top: 40%;
+    margin-left:-75px;
+}
+#groupbtn a{
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    margin:10px auto;
+}
+
+#apply form{
+    margin-right:20px;
+}
+
+
+#warning .modal-content{
+    background-color: rgba(255, 10, 30, 0.84);
+}
+#warning .modal-body{
+    color: white;
+    font-size:20px;
+    text-align: center;
+}
+
+#admin .modal-body{
+    width:300px !important;
+    margin:30px auto;
+}
